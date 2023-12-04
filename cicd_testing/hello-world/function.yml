@@ -1,0 +1,9 @@
+Resources:
+SampleLambdaFunction:
+Properties:
+CodeUri: . #Directory the source file is
+FunctionName: cicd_testing_by_ahmad
+Handler: app.lambdaHandler
+Runtime: nodejs 18.x
+Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
