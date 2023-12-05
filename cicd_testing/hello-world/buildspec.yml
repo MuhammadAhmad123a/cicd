@@ -9,6 +9,8 @@ phases:
     commands:
       - echo "install dependencies"
       - npm install
+  
+  working_directory: D:\cicd\cicd_testing\hello-world
 
   post_build:
     commands:
