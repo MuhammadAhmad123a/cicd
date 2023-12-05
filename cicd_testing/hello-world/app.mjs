@@ -1,15 +1,12 @@
-
+import log4js from "log4js";
 
 export const lambdaHandler = async (event, context) => {
     try {
-        return {
-            'statusCode': 200,
-            'body': JSON.stringify({
-                message: 'hello world',
-            })
-        }
+        const response = "Hello World!";
+        logger.info(`${response}`);
+        return response;
     } catch (err) {
-        console.log(err);
+        logger.error(`${err}`);
         return err;
     }
 };
