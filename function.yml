@@ -6,5 +6,5 @@ Resources:
     Properties:
       CodeUri: . # Directory where the source file is located
       FunctionName: cicd_testing_by_ahmad
-      Handler: app.lambdaHandler
+      Handler: index.handler
       Runtime: nodejs 14.x
