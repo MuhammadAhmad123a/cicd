@@ -1,6 +1,6 @@
 import log4js from "log4js";
 
-export const lambdaHandler = async (event, context) => {
+export const handler = async (event, context) => {
     try {
         const response = "Hello World! from OB";
         logger.info(`${response}`);
