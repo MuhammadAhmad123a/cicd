@@ -4,7 +4,7 @@ Resources:
   SampleLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: .
+      CodeUri: s3://ahmadtestingcicd/04199ef8707101036990b20131f6af3b
       # Directory where the source file is located
       FunctionName: cicd_testing_by_ahmad
       Handler: index.handler
