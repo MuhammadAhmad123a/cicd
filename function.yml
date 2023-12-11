@@ -4,8 +4,8 @@ Resources:
   SampleLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: . #s3://ahmadtestingcicd/your-key?versionId=your-version-id 
-      #./hello-world # Directory where the source file is located
+      CodeUri: s3://ahmadtestingcicd/045b91f76f2e68fc349c02ee1c12e28a
+      # Directory where the source file is located
       FunctionName: cicd_testing_by_ahmad
       Handler: index.handler
       Runtime: nodejs 14.x
